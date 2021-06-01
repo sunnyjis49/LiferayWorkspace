@@ -1,0 +1,55 @@
+package com.servicetest.portlet;
+
+import javax.portlet.PortletException;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
+
+import com.employee.model.Employee;
+import com.employee.service.EmployeeLocalServiceUtil;
+import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.portlet.bridges.mvc.MVCRenderCommand;
+import com.liferay.portal.kernel.util.ParamUtil;
+
+public class EmpDeleteRenderCommand implements MVCRenderCommand {
+
+	@Override
+	public String render(RenderRequest request, RenderResponse request) throws PortletException {
+		String name = ParamUtil.getString(request, "name");
+		String email = ParamUtil.getString(request, "email");
+		String mobile = ParamUtil.getString(request, "mobile");
+		
+		System.out.println("name: "+name+" email: "+email+" mobile: "+mobile);
+		
+		try {
+			/*Employee employee = EmployeeLocalServiceUtil.createEmployee((int)CounterLocalServiceUtil.increment());
+			employee.setName(name);
+			employee.setEmail(email);
+			employee.setMobile(mobile);*/
+			
+			java.util.List<Employee> empList = EmployeeLocalServiceUtil.findByName(name);
+//			for(Employee emp : empList){
+//				System.out.println("empId: "+emp.getEmpId());
+//				EmployeeLocalServiceUtil.deleteEmployee(emp.getEmpId());
+//			}
+			
+			empList.forEach(emp->{
+				try {
+					EmployeeLocalServiceUtil.deleteEmployee(emp.getEmpId());
+				} catch (PortalException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			});
+			
+			//EmployeeLocalServiceUtil.deleteEmployee(employee);
+			
+			System.out.println("DATA is Deleted successfully....");
+			response.setRenderParameter("msg", name+" is successfully deleted from DB..");
+			response.setRenderParameter("fromEmpSubmitAction", "success");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

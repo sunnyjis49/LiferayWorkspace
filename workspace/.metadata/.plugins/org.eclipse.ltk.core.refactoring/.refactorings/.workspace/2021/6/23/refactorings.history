@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;com.sun.demo.hooks&apos; to &apos;dxpjsphook&apos;" description="Rename resource &apos;com.sun.demo.hooks&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.sun.demo.hooks" name="dxpjsphook" stamp="1622554789817" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;com.sun.demo.hooks&apos; to &apos;dxphookjsp&apos;" description="Rename resource &apos;com.sun.demo.hooks&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.sun.demo.hooks" name="dxphookjsp" stamp="1622554827108" updateReferences="true"/>
+</session>

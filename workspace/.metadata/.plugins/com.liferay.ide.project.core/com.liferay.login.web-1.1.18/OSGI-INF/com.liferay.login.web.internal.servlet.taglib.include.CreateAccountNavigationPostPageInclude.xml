@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.liferay.login.web.internal.servlet.taglib.include.CreateAccountNavigationPostPageInclude" immediate="true">
+  <implementation class="com.liferay.login.web.internal.servlet.taglib.include.CreateAccountNavigationPostPageInclude"/>
+  <service>
+    <provide interface="com.liferay.taglib.include.PageInclude"/>
+  </service>
+  <reference name="_portal" interface="com.liferay.portal.kernel.util.Portal" field="_portal"/>
+  <property name="login.web.navigation.position" type="String" value="post"/>
+  <property name="service.ranking" type="Integer" value="200"/>
+</scr:component>

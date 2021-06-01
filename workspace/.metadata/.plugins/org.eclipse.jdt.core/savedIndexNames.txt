@@ -1,0 +1,16 @@
+INDEX VERSION 1.130+G:\LifeRay7\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2928123095.index
+3618270399.index
+202895033.index
+1362869694.index
+2839429158.index
+2503556709.index
+2778149324.index
+3816397909.index
+1930252881.index
+215350653.index
+287948861.index
+1225445753.index
+241660456.index
+4247934882.index
+1714087929.index

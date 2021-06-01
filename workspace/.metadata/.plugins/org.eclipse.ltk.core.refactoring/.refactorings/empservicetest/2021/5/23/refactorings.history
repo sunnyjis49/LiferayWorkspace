@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.servicetest.portlet.EntryActionCommand&apos; to &apos;EmpSubmitActionCommand&apos;&#x0D;&#x0A;- Original project: &apos;empservicetest&apos;&#x0D;&#x0A;- Original element: &apos;com.servicetest.portlet.EntryActionCommand&apos;&#x0D;&#x0A;- Renamed element: &apos;com.servicetest.portlet.EmpSubmitActionCommand&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;EntryActionCommand&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.servicetest.portlet{EntryActionCommand.java[EntryActionCommand" matchStrategy="1" name="EmpSubmitActionCommand" qualified="false" references="true" similarDeclarations="false" stamp="1622471038614" textual="false" version="1.0"/>
+</session>

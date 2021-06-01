@@ -1,0 +1,9 @@
+#
+#Mon May 31 21:11:48 IST 2021
+linkedResources=
+managedNatures=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+subprojectPaths=modules;modules/FirstModuleWithLWS;modules/employeeservice;modules/empservicetest;modules/employeeservice/employeeservice-api;modules/employeeservice/employeeservice-service
+derivedResources=.gradle;build;modules/build;modules/FirstModuleWithLWS/build;modules/employeeservice/build;modules/empservicetest/build;modules/employeeservice/employeeservice-api/build;modules/employeeservice/employeeservice-service/build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildDir=build

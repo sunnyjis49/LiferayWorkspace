@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.osgi.service.deploymentadmin.BundleInfo"/>
+<fullyQualifiedTypeName name="org.osgi.framework.BundleActivator"/>
+<fullyQualifiedTypeName name="javax.portlet.ActionRequest"/>
+<fullyQualifiedTypeName name="javax.portlet.ActionResponse"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.ParamUtil"/>
+<fullyQualifiedTypeName name="com.liferay.counter.kernel.service.CounterLocalServiceUtil"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.portlet.ProcessAction"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.dao.orm.DynamicQuery"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.dao.orm.DynamicQueryFactoryUtil"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.PortletClassLoaderUtil"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.dao.orm.RestrictionsFactoryUtil"/>
+<fullyQualifiedTypeName name="com.employee.model.Employee"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.bean.PortletBeanLocatorUtil"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="com.employee.service.EmployeeLocalServiceUtil"/>
+<fullyQualifiedTypeName name="com.employee.service.EmployeeLocalService"/>
+<fullyQualifiedTypeName name="com.liferay.counter.kernel.service.CounterLocalService"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Reference"/>
+</qualifiedTypeNameHistroy>

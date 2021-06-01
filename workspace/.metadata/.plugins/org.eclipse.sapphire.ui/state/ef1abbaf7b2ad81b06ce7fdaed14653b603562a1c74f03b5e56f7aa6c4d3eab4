@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailsEditorPageState>
+    <ContentOutlineState>
+        <Ratio>0.2998565279770445</Ratio>
+        <Root>
+            <Children>
+                <MasterDetailsNodeState>
+                    <Label>Service Builder</Label>
+                    <Expanded>true</Expanded>
+                    <Children>
+                        <MasterDetailsNodeState>
+                            <Label>Entities</Label>
+                            <Expanded>true</Expanded>
+                            <Children>
+                                <MasterDetailsNodeState>
+                                    <Label>Employee</Label>
+                                    <Expanded>true</Expanded>
+                                    <Children>
+                                        <MasterDetailsNodeState>
+                                            <Label>Columns</Label>
+                                            <Expanded>true</Expanded>
+                                            <Children>
+                                                <MasterDetailsNodeState>
+                                                    <Label>empId</Label>
+                                                    <Selected>true</Selected>
+                                                </MasterDetailsNodeState>
+                                            </Children>
+                                        </MasterDetailsNodeState>
+                                        <MasterDetailsNodeState>
+                                            <Label>Finders</Label>
+                                            <Expanded>true</Expanded>
+                                            <Children>
+                                                <MasterDetailsNodeState>
+                                                    <Label>Name</Label>
+                                                    <Expanded>true</Expanded>
+                                                    <Children>
+                                                        <MasterDetailsNodeState>
+                                                            <Label>Finder Columns</Label>
+                                                            <Expanded>true</Expanded>
+                                                        </MasterDetailsNodeState>
+                                                    </Children>
+                                                </MasterDetailsNodeState>
+                                            </Children>
+                                        </MasterDetailsNodeState>
+                                    </Children>
+                                </MasterDetailsNodeState>
+                            </Children>
+                        </MasterDetailsNodeState>
+                    </Children>
+                </MasterDetailsNodeState>
+            </Children>
+        </Root>
+    </ContentOutlineState>
+</MasterDetailsEditorPageState>

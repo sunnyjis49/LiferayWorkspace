@@ -1,0 +1,1 @@
+create index IX_48BE3FB3 on employee (name[$COLUMN_LENGTH:75$]);

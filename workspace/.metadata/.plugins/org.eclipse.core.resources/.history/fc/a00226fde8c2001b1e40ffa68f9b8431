@@ -1,0 +1,5 @@
+package com.servicetest.portlet;
+
+public class MyLanguageProperties {
+
+}

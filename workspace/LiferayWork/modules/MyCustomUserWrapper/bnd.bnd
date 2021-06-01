@@ -1,0 +1,3 @@
+Bundle-Name: MyCustomUserWrapper
+Bundle-SymbolicName: com.sun
+Bundle-Version: 1.0.0

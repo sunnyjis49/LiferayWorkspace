@@ -1,0 +1,7 @@
+package com.servicetest.portlet;
+
+import java.util.ResourceBundle;
+
+public class MyLanguageProperties extends ResourceBundle {
+
+}

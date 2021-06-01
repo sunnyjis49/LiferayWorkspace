@@ -1,0 +1,4 @@
+Bundle-Name: empservicetest
+Bundle-SymbolicName: com.servicetest
+Bundle-Version: 1.0.0
+Export-Package: com.servicetest.constants

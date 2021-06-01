@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="com.liferay.login.web.internal.servlet.taglib.include.SignInNavigationPrePageInclude" immediate="true">
+  <implementation class="com.liferay.login.web.internal.servlet.taglib.include.SignInNavigationPrePageInclude"/>
+  <service>
+    <provide interface="com.liferay.taglib.include.PageInclude"/>
+  </service>
+  <property name="login.web.navigation.position" type="String" value="pre"/>
+  <property name="service.ranking" type="Integer" value="100"/>
+</component>
